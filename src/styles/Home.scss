@@ -1,0 +1,86 @@
+body {
+    background:#5ca1bd;
+  }
+  
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+
+.container
+{
+    padding: 5%;
+    margin-top:15%;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid rgb(250, 249, 249);
+    border-radius: 10%;
+    align-items: center;
+    width: 20%;
+    
+}
+
+.Counter
+{
+    align-items: center;
+}
+
+.h
+{  
+     background-color: rgb(3, 66, 66);
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(250, 249, 249);
+    border-radius: 5px;
+    width: 50px;    
+}
+
+.m
+{  
+     background-color: rgb(3, 66, 66);
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(250, 249, 249);
+    border-radius: 5px;
+    width: 50px;    
+}
+  
+.s
+{  
+    background-color: rgb(3, 66, 66);
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(250, 249, 249);
+    border-radius: 5px;
+    width: 50px;    
+}
+  
+.ms
+{  
+     background-color: rgb(3, 66, 66);
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(250, 249, 249);
+    border-radius: 5px;
+    width: 50px;    
+}
+
+.stopwatch-btn
+{
+    flex: auto;
+    margin: 5px;
+    padding: 0.5em;
+    align-self: center;
+    border-radius: 10px;
+}
+  
