@@ -1,41 +1,34 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
-</p>
+# Counter exercise
+## Intro
+Exercise in which we had to do a simple counter based on this one showed just bellow, with **React**:
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+[![Simple Counter from 4geeks](https://raw.githubusercontent.com/breatheco-de/exercise-simple-counter-react/master/preview.gif "Simple Counter from 4geeks")](https://raw.githubusercontent.com/breatheco-de/exercise-simple-counter-react/master/preview.gif "Simple Counter from 4geeks")
 
-##### Download the boilerplate using git
+But I decided due to some preferences (count the real time as a stopwatch) I did it adding the type of data shown. And in order to invest optimal time and not mess with appearances, I simply wanted it to be visual and properly grouped. 
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+Here is the result of the preview as a photo:
 
-##### and install the npm package:
+[![Exercise preview result](https://raw.githubusercontent.com/AslanSN/simple-counter/master/src/img/image.png "Exercise preview result")](http://https://raw.githubusercontent.com/AslanSN/simple-counter/master/src/img/image.png "Exercise preview result")
+
+------------
+
+
+### Remember:
+
+## Build up
+
+##### To build up this app you must **isntall** node.js using:
 ```
 $ npm install
+``` 
+##### and to start the webpack server with live reload:
+```
+$ npm run start
 ```
 
-## Start coding!
+------------
 
-For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
-- `$ npm run start`
 
-You can update the `styles/index.scss` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
-
-## Publish your website!
-
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
-
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
-
-## Other features
-
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+> *Thank you for reading,
+**AslanSN**
+*
