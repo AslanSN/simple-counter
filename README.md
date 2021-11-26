@@ -29,6 +29,7 @@ $ npm run start
 ------------
 
 
-> *Thank you for reading,
-**AslanSN**
-*
+> Thank you for reading,
+**AslanSN** 
+
+
