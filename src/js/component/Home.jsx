@@ -9,7 +9,14 @@ import { useState } from "react";
 //Styles
 import HomeStyle from "../../styles/Home.scss";
 
+
+/**
+ * !Component
+ * @returns HTML => Stopwatch counter
+ */
 const Home = () => {
+
+//Forks
 	const [Time, setTime] = useState({
 		ms: 0,
 		s: 0,
@@ -17,11 +24,16 @@ const Home = () => {
 		h: 0
 	});
 
+// Vars
 	let newMs = Time.ms;
 	let newS = Time.s;
 	let newM = Time.m;
 	let newH = Time.h;
 
+	/**
+	 * !Watch builder
+	 * @returns updated setTime (object)
+	 */
 	const watch = () => {
 		if (newMs === 100) {
 			newS++;
@@ -48,6 +60,9 @@ const Home = () => {
 		});
 	};
 
+	/**
+	 * !Calls other functions to repeat as setInterval demands
+	 */
 	const init = () => {
 		watch();
 		setInterval(watch, 10);
